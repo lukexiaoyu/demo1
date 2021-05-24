@@ -1,0 +1,43 @@
+.box{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 300px auto;
+  transition: all 10s;
+  transform-style: preserve-3d;
+}
+.box:hover{
+  transform: rotateY(780deg);
+}
+.box div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.one{
+  background: url("https://gss0.baidu.com/70cFfyinKgQFm2e88IuM_a/forum/w%3D580/sign=eb97cea019d8bc3ec60806c2b28aa6c8/33b23b292df5e0fe1e33f29b5c6034a85fdf72aa.jpg") no-repeat;
+  transform: translateZ(200px) ;
+
+}
+.two{
+  background: url("https://ss1.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/2cf5e0fe9925bc31f019dfc35ddf8db1cb137021.jpg") no-repeat;
+  transform: translate3d(173px,0,100px) rotateY(60deg);
+}
+.three{
+  background: url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1601406830,2108761440&fm=26&gp=0.jpg") no-repeat;
+  transform: translate3d(173px,0,-100px) rotateY(120deg);
+}
+.four{
+ background: url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4094106402,3378912480&fm=26&gp=0.jpg") no-repeat;
+  transform: translateZ(-200px) rotateY(180deg);
+}
+.five{
+  background: url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=389560268,2123321136&fm=26&gp=0.jpg") no-repeat;
+  transform: translate3d(-173px,0,-100px) rotateY(240deg);
+}
+.six{
+  background: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2520776075,483574060&fm=26&gp=0.jpg") no-repeat;
+  transform: translate3d(-173px,0,100px) rotateY(300deg);
+}
